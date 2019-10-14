@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
             <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
         </li>
