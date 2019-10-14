@@ -11,7 +11,7 @@ ob_start();
       <img src="https://blog.sportacus.fr/wp-content/uploads/2017/02/Capture-d%E2%80%99e%CC%81cran-2017-02-15-a%CC%80-22.04.47.png" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="https://blog.sportacus.fr/wp-content/uploads/2017/02/Capture-d%E2%80%99e%CC%81cran-2017-02-15-a%CC%80-22.04.47.png" class="d-block w-100" alt="">
+      <img src="https://cdn.pixabay.com/photo/2016/02/03/08/34/banner-1176681_960_720.jpg" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
       <img src="https://blog.sportacus.fr/wp-content/uploads/2017/02/Capture-d%E2%80%99e%CC%81cran-2017-02-15-a%CC%80-22.04.47.png" class="d-block w-100" alt="">
