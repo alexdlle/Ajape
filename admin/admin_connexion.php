@@ -10,4 +10,6 @@ $connexionAdmin = $dbh->query('SELECT * FROM admin_users WHERE username = "'. $u
 
 if(count($connexionAdmin) > 0) {
   echo 'coucou pute';
+} else {
+  echo 'ntm';
 }
