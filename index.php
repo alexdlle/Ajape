@@ -5,7 +5,7 @@ ob_start();
 
 ?>
 
-<div id="carouselInterval" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
       <img src="https://blog.sportacus.fr/wp-content/uploads/2017/02/Capture-d%E2%80%99e%CC%81cran-2017-02-15-a%CC%80-22.04.47.png" class="d-block w-100" alt="">
@@ -17,11 +17,11 @@ ob_start();
       <img src="https://blog.sportacus.fr/wp-content/uploads/2017/02/Capture-d%E2%80%99e%CC%81cran-2017-02-15-a%CC%80-22.04.47.png" class="d-block w-100" alt="">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselInterval" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Précédent</span>
   </a>
-  <a class="carousel-control-next" href="#carouselInterval" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Suivant</span>
   </a>
