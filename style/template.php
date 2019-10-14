@@ -8,19 +8,21 @@
   </head>
 
   <body>
+
+  <nav class="navbar navbar-dark bg-dark">
     <div class="collapse navbar-collapse">
-      <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-          </ul>
-        </nav>
-  </div>
+    <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shop</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
 
     <?= $body ?>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
