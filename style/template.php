@@ -9,19 +9,42 @@
 
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="collapse navbar-collapse">
-      <a class="navbar-brand" href="#">Ajape</a>
-
-      <ul class="navbar-nav my-2 my-lg-0 float-right">
-        <li class="nav-item">
-          <a class="nav-link " href="#">Accueil<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+              </li>
+              <!--<li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li> -->
+          </ul>
+      </div>
+      <div class="mx-auto order-0">
+          <a class="navbar-brand mx-auto" href="#">Ajape</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Compte</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+      </div>
   </nav>
 
 
