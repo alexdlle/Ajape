@@ -5,7 +5,7 @@
 
 ?>
 
-<form aciton="admin_connexion.php" method="post">
+<form aciton="" method="post">
   <div class="form-group col-md-6">
     <label for="formUsername">Username</label>
     <input type="text" name="username" id="formUsername">
@@ -22,5 +22,20 @@
 
 $body = ob_get_clean();
 require('../style/template.php');
+
+$user = "id11179498_hugzrr";
+$pass = "cqfdcqfd";
+$dbh = new PDO('mysql:host=localhost;dbname=id11179498_ajape', $user, $pass);
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+$connexionAdmin = $dbh->query('SELECT * FROM admin_users WHERE username = "'. $username .'" AND password = MD5("'. $password .'")');
+
+if(count($connexionAdmin) > 0) {
+  echo 'coucou pute';
+} else {
+  echo 'ntm';
+}
 
 ?>
