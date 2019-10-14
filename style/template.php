@@ -9,7 +9,7 @@
 
   <body>
 
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="collapse navbar-collapse">
       <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
