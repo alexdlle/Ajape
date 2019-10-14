@@ -1,10 +1,16 @@
-<?php include('template.php');
+<?php
 
 $title = "Home";
+ob_start();
 
-ob_start(); ?>
+?>
 
 <p>test</p>
 <a href="index.php">Link</a>
 
-<?php $body = ob_get_clean(); ?>
+<?php
+
+$body = ob_get_clean();
+require('template.php'); 
+
+?>
