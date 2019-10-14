@@ -1,4 +1,4 @@
-<?php require('template.php');
+<?php include('template.php');
 
 $title = "Home";
 
