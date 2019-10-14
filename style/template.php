@@ -11,8 +11,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="collapse navbar-collapse">
-      <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
-      <ul class="navbar-nav my-2 my-lg-0 ">
+      <a class="navbar-brand" href="#">Ajape</a>
+
+      <ul class="navbar-nav mr-10 my-2 my-lg-0 ">
         <li class="nav-item">
           <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
         </li>
