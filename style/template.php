@@ -13,9 +13,9 @@
     <div class="collapse navbar-collapse">
       <a class="navbar-brand" href="#">Ajape</a>
 
-      <ul class="navbar-nav mr-sm-2 my-2 my-lg-0 ">
+      <ul class="navbar-nav my-2 my-lg-0 float-right">
         <li class="nav-item">
-          <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+          <a class="nav-link " href="#">Accueil<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Shop</a>
