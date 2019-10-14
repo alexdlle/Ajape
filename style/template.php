@@ -11,15 +11,15 @@
 
   <nav class="navbar navbar-dark bg-dark">
     <div class="collapse navbar-collapse">
-    <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
-    <ul class="navbar-nav mr-auto ">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
-      </li>
-    </ul>
+      <a class="navbar-brand" href="#" style="font-family: 'Skranji', cursive;">Ajape</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
