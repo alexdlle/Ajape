@@ -11,6 +11,6 @@ ob_start();
 <?php
 
 $body = ob_get_clean();
-require('/style/template.php'); 
+require('./style/template.php'); 
 
 ?>
