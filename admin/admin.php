@@ -5,7 +5,7 @@
 
 ?>
 
-<form aciton="" method="post">
+<form aciton="admin_connexion.php" method="post">
   <div class="form-group col-md-6">
     <label for="formUsername">Username</label>
     <input type="text" name="username" id="formUsername">
