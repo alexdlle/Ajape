@@ -3,6 +3,8 @@
 $title = "Ajape";
 $activeHome = " active";
 $activeGallery = "";
+$homePath="index.php";
+$galleryPath="./views/gallery.php";
 ob_start();
 
 ?>
