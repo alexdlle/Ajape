@@ -35,10 +35,10 @@
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Votre message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name ="MessageContact"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1"  rows="3" name ="MessageContact"></textarea>
               </div>
             </form>
-        </div>
+          </div>
 
           <!-- Modal footer -->
           <div class="modal-footer">
