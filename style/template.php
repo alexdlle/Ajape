@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include('../views/contact.php'); ?>
+<?php include('./views/contact.php'); ?>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
