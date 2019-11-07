@@ -24,12 +24,26 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-            Modal body..
-          </div>
+              <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Adresse email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="MailContact">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Objet</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="La raison de votre message" name="ObjectContact">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Votre message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name ="MessageContact"></textarea>
+              </div>
+            </form>
+        </div>
 
           <!-- Modal footer -->
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Envoyer</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
           </div>
 
         </div>
