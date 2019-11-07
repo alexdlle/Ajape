@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php require('views/contact.php'); ?>
+<?php require($contactPath); ?>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
