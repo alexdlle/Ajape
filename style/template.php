@@ -33,7 +33,7 @@
           </ul>
       </div>
       <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#">Ajape</a>
+          <a class="navbar-brand mx-auto" href="<?= $homePath?>">Ajape</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
               <span class="navbar-toggler-icon"></span>
           </button>
