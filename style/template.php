@@ -16,10 +16,10 @@
       <div class="navbar-collapse collapse w-200 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item<?= $activeHome?>">
-                  <a class="nav-link" href="index.php">Accueil</a>
+                  <a class="nav-link" href="<?= $homePath?>">Accueil</a>
               </li>
               <li class="nav-item<?= $activeGallery?>">
-                  <a class="nav-link" href="views/gallery.php">Gallerie</a>
+                  <a class="nav-link" href="<?= $galleryPath?>">Gallerie</a>
               </li>
               <!--<li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
