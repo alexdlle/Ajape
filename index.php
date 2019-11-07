@@ -1,6 +1,6 @@
 <?php
 
-$title = "Home";
+$title = "Ajape";
 ob_start();
 
 ?>
