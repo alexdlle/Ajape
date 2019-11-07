@@ -42,7 +42,7 @@
       <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
               <li class="<?= $activeContact?>">
-                  <a class="nav-link" href="#" data-toggle="modal fade" data-target="#ContactModal">Contact</a>
+                  <button class="nav-link" data-toggle="modal fade" data-target="#ContactModal">Contact</button>
               </li>
           </ul>
       </div>
