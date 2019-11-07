@@ -1,4 +1,5 @@
 <?php
+$title = "Ajape : Gallerie";
 $activeHome = "";
 $activeGallery = " active";
 

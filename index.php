@@ -1,6 +1,6 @@
 <?php
 
-$title = "Ajape";
+$title = "Ajape : Accueil";
 $activeHome = " active";
 $activeGallery = "";
 $homePath="index.php";
