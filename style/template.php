@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include('../views/contact.php'); ?>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -41,7 +42,7 @@
       <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
               <li class="<?= $activeContact?>">
-                  <a class="nav-link" href="<?= $contactPath?>">Contact</a>
+                  <a class="nav-link" data-toggle="modal fade" data-target="#ContactModal">Contact</a>
               </li>
           </ul>
       </div>

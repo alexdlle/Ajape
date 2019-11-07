@@ -1,17 +1,23 @@
-<?php
-$title = "Ajape : Galerie";
-$activeHome = "";
-$activeGallery = "";
-$activeContact=" active";
+<div class="modal" id="ContactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
 
-$homePath="../index.php";
-$galleryPath="./gallery.php";
-$contactPath="./contact.php";
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Contact</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
 
-ob_start();
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
 
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
 
-$body = ob_get_clean();
-
-require('../style/template.php');
-?>
+    </div>
+  </div>
+</div>
