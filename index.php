@@ -1,5 +1,4 @@
 <?php
-require('./function/admin/function.php');
 
 $title = "Ajape";
 $activeHome = " active";
@@ -36,8 +35,5 @@ ob_start();
 
 $body = ob_get_clean();
 require('./style/template.php');
-
-Admin::Connection();
-
 
 ?>
