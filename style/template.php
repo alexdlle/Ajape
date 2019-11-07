@@ -15,10 +15,10 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="navbar-collapse collapse w-200 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item<?= $activeHome?>">
                   <a class="nav-link" href="index.php">Accueil</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item<?= $activeGallery?>">
                   <a class="nav-link" href="views/gallery.php">Gallerie</a>
               </li>
               <!--<li class="nav-item">

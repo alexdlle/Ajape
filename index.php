@@ -1,6 +1,8 @@
 <?php
 
 $title = "Ajape";
+$activeHome = " active";
+$activeGallery = "";
 ob_start();
 
 ?>
