@@ -2,10 +2,10 @@
 
 require ('./function/connection.php');
 
-class Admin extends Connection
+class Admin
 {
     public function Connection()
     {
-        echo $test;
+        DbConnect();
     }
 }
