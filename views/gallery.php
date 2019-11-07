@@ -1,4 +1,4 @@
 <?php
 
-require('./style/template.php');
+require('../style/template.php');
 ?>
