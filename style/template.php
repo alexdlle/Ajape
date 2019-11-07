@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php require($contactPath); ?>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -12,6 +11,29 @@
   </head>
 
   <body>
+    <div class="modal" id="ContactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Contact</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            Modal body..
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="navbar-collapse collapse w-200 order-1 order-md-0 dual-collapse2">
