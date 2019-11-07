@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <div class="modal" id="ContactModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -64,7 +65,7 @@
       <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
               <li class="<?= $activeContact?>">
-                  <button class="nav-link" data-toggle="modal fade" data-target="#ContactModal">Contact</button>
+                  <a class="nav-link" href="#" onclick="openModal()" data-toggle="modal fade">Contact</a>
               </li>
           </ul>
       </div>
@@ -72,6 +73,14 @@
 
 
     <?= $body ?>
+
+    <script type="text/javascript">
+
+    function openModal(){
+
+        $('#ContactModal').modal('show');
+    }
+    </script>
 
   </body>
 
