@@ -19,7 +19,7 @@
                   <a class="nav-link" href="<?= $homePath?>">Accueil</a>
               </li>
               <li class="nav-item<?= $activeGallery?>">
-                  <a class="nav-link" href="<?= $galleryPath?>">Gallerie</a>
+                  <a class="nav-link" href="<?= $galleryPath?>">Galerie</a>
               </li>
               <!--<li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -40,11 +40,8 @@
       </div>
       <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Compte</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+              <li class="<?= $activeContact?>">
+                  <a class="nav-link" href="<?= $contactPath?>">Contact</a>
               </li>
           </ul>
       </div>

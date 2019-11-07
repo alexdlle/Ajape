@@ -1,8 +1,8 @@
 <?php
 $title = "Ajape : Galerie";
 $activeHome = "";
-$activeGallery = " active";
-$activeContact="";
+$activeGallery = "";
+$activeContact=" active";
 
 $homePath="../index.php";
 $galleryPath="./gallery.php";
