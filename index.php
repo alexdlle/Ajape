@@ -14,7 +14,7 @@ ob_start();
 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
-      <img src="./style/Images/air_jordan_1.jpg" class="image-res" alt="">
+      <img src="./style/Images/banner.png" class="image-res" alt="">
     </div>
     <div class="carousel-item" data-interval="2000">
       <img src="https://cdn.pixabay.com/photo/2016/02/03/08/34/banner-1176681_960_720.jpg" class="image-res" alt="">
